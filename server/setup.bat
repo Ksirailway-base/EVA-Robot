@@ -14,7 +14,7 @@ if not exist venv (
     echo [1/3] Virtual environment already exists.
 )
 
-echo [2/3] Installing Python dependencies...
+echo [2/3] Installing Python dependencies (this may take time)...
 cmd /c venv\Scripts\python.exe -m pip install -r requirements.txt
 
 if not exist bin\llama-server.exe (
@@ -32,10 +32,15 @@ if not exist bin\llama-server.exe (
 )
 
 echo.
-echo Setup Complete! 
+echo ========================================
+echo   Setup Complete! 
+echo ========================================
 echo.
-echo To start the robot:
-echo 1. Ensure you have the models in the root directory.
+echo IMPORTANT: To start the robot:
+echo 1. Ensure you have the models in the root directory:
+echo    - Qwen3-VL-4B-Instruct-Q4_K_M.gguf
+echo    - mmproj-Qwen3VL-4B-Instruct-Q8_0.gguf
+echo.
 echo 2. Run run.bat
 echo.
 pause
