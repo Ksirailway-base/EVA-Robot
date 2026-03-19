@@ -8,17 +8,17 @@ echo ========================================
 cd /d %~dp0
 
 if not exist venv (
-    echo [1/3] Creating virtual environment...
+    echo [1/3] Creating virtual environment
     python -m venv venv
 ) else (
-    echo [1/3] Virtual environment already exists.
+    echo [1/3] Virtual environment already exists
 )
 
-echo [2/3] Installing Python dependencies (this may take time)...
+echo [2/3] Installing Python dependencies
 cmd /c venv\Scripts\python.exe -m pip install -r requirements.txt
 
 if not exist bin\llama-server.exe (
-    echo [3/3] Downloading llama.cpp binaries (v.b8429)...
+    echo [3/3] Downloading llama.cpp binaries
     if not exist bin mkdir bin
     
     curl -L https://github.com/ggml-org/llama.cpp/releases/download/b8429/llama-b8429-bin-win-cuda-12.4-x64.zip -o llama_bin.zip
@@ -26,9 +26,9 @@ if not exist bin\llama-server.exe (
     tar -xf llama_bin.zip -C bin
     del llama_bin.zip
     
-    echo Binaries installed in server\bin\
+    echo Binaries installed in server\bin
 ) else (
-    echo [3/3] llama.cpp binaries already installed.
+    echo [3/3] llama.cpp binaries already installed
 )
 
 echo.

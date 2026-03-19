@@ -62,7 +62,7 @@ MAX98357A amp ◄──────────────  F5-TTS  (Voice clon
    ```cmd
    git clone https://github.com/Ksirailway-base/EVA-Robot.git
    cd EVA-Robot/server
-   setup.bat
+   .\setup.bat
    ```
    This will automatically create a virtual environment, install dependencies, and download the required `llama.cpp` binaries (v.b8429) to `server/bin/`.
 
@@ -77,7 +77,7 @@ MAX98357A amp ◄──────────────  F5-TTS  (Voice clon
 4. **Run**:
    ```cmd
    cd server
-   run.bat
+   .\run.bat
    ```
 
 ### 2. Firmware
