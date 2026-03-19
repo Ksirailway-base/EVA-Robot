@@ -1,0 +1,6 @@
+requests
+faster-whisper
+f5-tts
+pydub
+websockets
+numpy
