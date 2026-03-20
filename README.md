@@ -97,7 +97,7 @@ MAX98357A amp ◄──────────────  F5-TTS  (Voice clon
 
 ### 3. Done
 
-Power on the ESP32. It connects to your server over WebSocket. Say something.
+Power on the ESP32. It connects to your server over WebSocket. Touch it and say something.
 
 ---
 
