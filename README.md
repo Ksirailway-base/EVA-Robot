@@ -71,8 +71,8 @@ MAX98357A amp ◄──────────────  F5-TTS  (Voice clon
 
 3. **Models**:
    Place the GGUF models in the root directory (one level above `server/`):
-   - `Qwen3-VL-4B-Instruct-Q4_K_M.gguf`
-   - `mmproj-Qwen3VL-4B-Instruct-Q8_0.gguf`
+   - [Qwen3VL-4B-Instruct-Q4_K_M.gguf](https://huggingface.co/Qwen/Qwen3-VL-4B-Instruct-GGUF/resolve/main/Qwen3VL-4B-Instruct-Q4_K_M.gguf)
+   - [mmproj-Qwen3VL-4B-Instruct-Q8_0.gguf](https://huggingface.co/Qwen/Qwen3-VL-4B-Instruct-GGUF/resolve/main/mmproj-Qwen3VL-4B-Instruct-Q8_0.gguf)
 
 4. **Run**:
    ```cmd
