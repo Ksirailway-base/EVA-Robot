@@ -41,7 +41,7 @@ MAX98357A amp ◄──────────────  F5-TTS  (Voice clon
 | Camera | OV3660 (onboard) |
 | Microphone | INMP441 (I2S) |
 | Amplifier | MAX98357A (I2S) |
-| Display | SSD1306 / SH1106 OLED 128×64 |
+| Display |  SH1106 OLED 128×64 |
 | Touch | TTP223B capacitive sensor |
 
 3D-printed enclosure designed in Autodesk Fusion — model available on *SOON*

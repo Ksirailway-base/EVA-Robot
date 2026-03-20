@@ -29,7 +29,7 @@ class AIEngine:
             "RULES:\n"
             "1. ALWAYS start your response with an emotion tag: [NEUTRAL], [HAPPY], [SAD], or [ANGRY].\n"
             "2. DO NOT use Markdown.\n"
-            "3. Respond ONLY with plain text."
+            "3. Respond ONLY with shortly plain text."
         )
         try:
             if os.path.exists(prompt_path):
