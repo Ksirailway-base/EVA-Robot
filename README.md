@@ -1,5 +1,7 @@
 # Eva — AI Companion Robot
 
+[![Eva Project Preview](https://img.youtube.com/vi/ReqQw_381vc/0.jpg)](https://youtu.be/ReqQw_381vc)
+
 > Voice-controlled AI companion with vision. Runs fully locally on ESP32-S3 + PC. No cloud required.
 ---
 
@@ -44,7 +46,8 @@ MAX98357A amp ◄──────────────  F5-TTS  (Voice clon
 | Display |  SH1106 OLED 128×64 |
 | Touch | TTP223B capacitive sensor |
 
-3D-printed enclosure designed in Autodesk Fusion — model available on *SOON*
+3D-printed enclosure designed in Autodesk Fusion 
+Model available on MakerWorld and Thingiverse
 
 ---
 
